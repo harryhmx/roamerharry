@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from archive import views as av
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # Config urls for homepage and apps
+    path('', av.index, name='home'),
 ]
