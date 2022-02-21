@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Residual files
+*.DS_Store
+
+# customize
+collected_static/
+media/
+recovery/
