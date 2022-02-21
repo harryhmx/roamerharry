@@ -31,9 +31,11 @@ Then, following the steps below
   `$ python3 manage.py runserver`
 
   Then enter address `http://localhost:8000` or `http://127.0.0.1:8000` on browser,
+
   you can see the webpage, `127.0.0.1 ( localhost )` and `8000` are the default ip and port.
 
   If you wanna declare the ip and port, for example like `192.168.1.123 ( ip )` and `8452 ( port )`,
+
   you can run command below,
 
   `$ python3 manage.py runserver 192.168.1.123:8452`
