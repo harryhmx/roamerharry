@@ -4,12 +4,16 @@ $navbar-height: 56px;
 .normal {
   padding-top: $navbar-height;
 
-  nav.navbar {
-    background-color: $navbar-color;
+  header {
+    nav.navbar {
+      background-color: $navbar-color;
+    }
   }
 
   footer {
-    padding-top:    20px;
-    padding-bottom: 10px;
+    .site-info {
+      padding-top:    20px;
+      padding-bottom: 10px;
+    }
   }
 }

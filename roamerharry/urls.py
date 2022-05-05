@@ -24,6 +24,7 @@ urlpatterns = [
 
     # Config urls for homepage and apps
     path('', av.index, name='home'),
+    path('archives/', av.items, name='archives'),
 ]
 
 # Config url for image upload
