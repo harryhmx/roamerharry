@@ -131,6 +131,9 @@ dmypy.json
 # Residual files
 *.DS_Store
 
+# Generated css files
+static/stylesheets/*.css*
+
 # customize
 collected_static/
 media/
