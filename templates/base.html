@@ -3,9 +3,10 @@
 
 {% include "head.html" %}
 
-<body>
-  {% include "header.html" %}
+<body class="normal">
+  {% include "top.html" %}
   {% block main_body %}{% endblock %}
+  {% include "bottom.html" %}
 </body>
 
 </html>
