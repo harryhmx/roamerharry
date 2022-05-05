@@ -1,7 +1,12 @@
+$navbar-color:  #eddcd0;
 $navbar-height: 56px;
 
 .normal {
   padding-top: $navbar-height;
+
+  nav.navbar {
+    background-color: $navbar-color;
+  }
 
   footer {
     padding-top:    20px;

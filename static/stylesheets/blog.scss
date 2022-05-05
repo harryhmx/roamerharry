@@ -1,8 +1,12 @@
-$bg-blog:      #dfdfdf;
-$padding-blog: 50px;
+$bg-screen:       url("/static/images/screen.svg") center center/cover no-repeat;
+$bg-color-screen: #bee5eb;
+$padding-screen:  80px;
 
 .blog-page {
-  background-color: $bg-blog;
-  padding-top:      $padding-blog;
-  padding-bottom:   $padding-blog;
+  .header-screen {
+    background:       $bg-screen;
+    background-color: $bg-color-screen;
+    padding-top:      $padding-screen;
+    padding-bottom:   $padding-screen;
+  }
 }
