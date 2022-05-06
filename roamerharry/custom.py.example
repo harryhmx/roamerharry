@@ -1,0 +1,25 @@
+# SECURITY WARNING: Set False if turned on in production!
+DEBUG = True
+# Configure ALLOWED_HOSTS for visible domains if turned on in production!
+ALLOWED_HOSTS = []
+
+# Databases Configuration
+
+# If using 'sqlite3'
+# import os
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Choose 'postgresql_psycopg2', 'mysql', 'sqlite3' OR 'oracle'.
+ENGINE = 'django.db.backends.sqlite3'
+# Set DATABASE NAME, path to database file if using 'sqlite3'.
+NAME = os.path.join(BASE_DIR, 'db.sqlite3')
+# Set USER, not used with 'sqlite3'.
+USER = ''
+# Set PASSWORD, not used with 'sqlite3'.
+PASSWORD = ''
+# Set to empty string for localhost, not used with 'sqlite3'.
+HOST = ''
+# Set to empty string for default, not used with 'sqlite3'.
+PORT = ''
+# Set secret key, make this unique.
+SECRET_KEY = ''

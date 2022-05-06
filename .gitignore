@@ -135,6 +135,7 @@ dmypy.json
 static/stylesheets/*.css*
 
 # customize
+roamerharry/custom.py
 collected_static/
 media/
 recovery/

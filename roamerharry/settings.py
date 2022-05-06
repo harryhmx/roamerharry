@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
+from . import custom
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -20,12 +21,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '@fp*(jg0rdks)r$*t3f@+$(&y+j5#(4nee9zu72)vzx@wj$e^r'
+SECRET_KEY = custom.SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = custom.DEBUG
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = custom.ALLOWED_HOSTS
 
 
 # Application definition
@@ -79,8 +80,12 @@ WSGI_APPLICATION = 'roamerharry.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE':   custom.ENGINE,
+        'NAME':     custom.NAME,
+        'USER':     custom.USER,
+        'PASSWORD': custom.PASSWORD,
+        'HOST':     custom.HOST,
+        'PORT':     custom.PORT,
     }
 }
 
