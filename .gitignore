@@ -134,8 +134,9 @@ dmypy.json
 # Generated css files
 static/stylesheets/*.css*
 
-# customize
+# Other secret data
 roamerharry/custom.py
+archive/migrations/
 collected_static/
 media/
 recovery/
