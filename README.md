@@ -11,9 +11,9 @@ and the things below you may want to cover
 * Django ( 2.2 )
 * PyMySQL
 
-Firstly, you should make sure `Python ( 3.7 )` and `MySQL ( 8.0 )` are successfully installed.
+Firstly, you should make sure `Python ( 3.7 )` and `MySQL ( 8.0 )` are successfully installed,
 
-Then, following the steps below
+then following the steps below
 
 * Install PIP
 
